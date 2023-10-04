@@ -1,0 +1,96 @@
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* margin-left: 10%; */
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+.centerblock {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  text-align: left;
+  height: 220px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.171);
+  padding: 25px;
+  margin: 15px;
+  object-fit: contain;
+}
+.image {
+  height: 45px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.topheading1 {
+  font-weight: 200;
+}
+.top p {
+  font-size: 13px;
+  /* margin-top: 15px; */
+  margin: 20px 0 20px 0;
+}
+p {
+  font-size: 12px;
+  color: var(--GrayishBlue);
+  line-height: 25px;
+}
+
+#supervisor {
+  border-top: 4px solid var(--Cyan);
+}
+#teambuilder {
+  border-top: 4px solid var(--Red);
+}
+#karma {
+  border-top: 4px solid var(--Orange);
+}
+#calculator {
+  border-top: 4px solid var(--Blue);
+}
